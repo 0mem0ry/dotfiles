@@ -1,0 +1,63 @@
+
+* {
+  font-family: JetbrainsMono Nerd Font;
+  font-size: 15px;
+}
+
+window#waybar {
+  background: #1e212a;
+}
+
+#mpd, #tray, #pulseaudio, #backlight, #battery, #network, #clock, #custom-weather {
+  background-color: #2d3039;
+  color: #fffff0;
+  padding: 7px 10px;
+  margin: 4px 1px;
+  border-radius: 2px;
+}
+
+#mpd {
+  box-shadow: inset 0 -2px #ebbcba
+}
+
+#tray {
+  box-shadow: inset 0 -2px #e6bfc1
+}
+
+#pulseaudio {
+  box-shadow: inset 0 -2px #eb6f92;
+}
+
+#backlight {
+  box-shadow: inset 0 -2px #9ccfd8;
+}
+
+#network {
+  box-shadow: inset 0 -2px #f6c177;
+}
+
+#battery {
+  box-shadow: inset 0 -2px #31748f;
+}
+
+#clock {
+  box-shadow: inset 0 -2px #c4a7e7;
+}
+
+#custom-weather {
+  box-shadow: inset 0 -2px #61afef;
+}
+
+#custom-logo {
+  background-color: #9ccfd8;
+  padding: 7px;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+#custom-logout {
+  background-color: #eb6f92;
+  padding: 7px;
+  margin: 4px;
+  border-radius: 4px;
+}
